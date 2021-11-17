@@ -1,0 +1,18 @@
+.dicm_listings .listings_results ul{
+	columns:3;
+	list-style:none;
+	overflow: hidden;
+}
+.dicm_listings .listings_results ul li{
+	text-transform: capitalize;
+}
+.dicm_listings .listings_results ul li a.close_button{
+	text-decoration: none;
+	font-weight: bold;
+}
+.dicm_listings .listings_suggestions_row th,
+.dicm_listings .listings_suggestions_row td,
+.dicm_listings .listings_suggestions_row ul{
+	margin:0;
+	padding:0;
+}

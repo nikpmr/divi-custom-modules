@@ -1,0 +1,31 @@
+.et-fb-modal .et-fb-form__toggle .et-fb-form__toggle-html{
+	display:none;
+}
+.et-fb-modal .et-fb-form__toggle.et-fb-form__toggle-opened .et-fb-form__toggle-html{
+	display:block;
+}
+.et-fb-modal .et-fb-form__toggle[data-custom_toggle="1"] .et-fb-form__group,
+.et-fb-modal [data-custom_field="1"] > *:not(.et-fb-form__option-html){
+	height:0;
+	overflow:hidden;
+	margin:0 !important;
+	padding:0 !important;
+	display:block !important;
+}
+.et-fb-modal .et-fb-form__group[data-custom_field="1"]{
+	padding-top:16px;
+}
+.et-fb-modal .et-fb-form__group.no_padding{
+	margin:0 !important;
+	padding:0;
+}
+.et-fb-modal__support-notice{
+	display:none;
+}
+.et-fb-modal__button {
+    background: #2B87DA;
+    padding: 10px 16px;
+    border-radius: 3px;
+    font-weight: 700;
+    color: white;
+}
